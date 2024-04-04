@@ -42,23 +42,26 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
+![alt text](image.png)
 
 
 cat < file2
 ## OUTPUT
-
+![alt text](image-1.png)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![alt text](image-2.png)
+
 comm file1 file2
  ## OUTPUT
+ ![alt text](image-3.png)
 
  
 diff file1 file2
 ## OUTPUT
+![alt text](image-4.png)
 
 
 #Filters
@@ -82,17 +85,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![alt text](image-5.png)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![alt text](image-6.png)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![alt text](image-7.png)
 
 
 cat < newfile 
@@ -107,28 +113,34 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![alt text](image-8.png)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![alt text](image-9.png)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![alt text](image-10.png)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![alt text](image-11.png)
+
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![alt text](image-12.png)
 
 
 
@@ -140,6 +152,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+![alt text](image-13.png)
 
 
 cat < newfile 
@@ -163,11 +176,13 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![alt text](image-14.png)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![alt text](image-15.png)
 
 
 
